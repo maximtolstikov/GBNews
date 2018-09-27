@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BFF9AF8DEF4260CF2E94BDE /* libPods-GBNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DEB0675199A6D0EA35D912 /* libPods-GBNews.a */; };
 		942B9DEE215A0AC200AD049E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942B9DED215A0AC200AD049E /* AppDelegate.m */; };
-		942B9DF1215A0AC200AD049E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942B9DF0215A0AC200AD049E /* ViewController.m */; };
-		942B9DF4215A0AC200AD049E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942B9DF2215A0AC200AD049E /* Main.storyboard */; };
 		942B9DF6215A0AC300AD049E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942B9DF5215A0AC300AD049E /* Assets.xcassets */; };
 		942B9DF9215A0AC300AD049E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942B9DF7215A0AC300AD049E /* LaunchScreen.storyboard */; };
 		942B9DFC215A0AC300AD049E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942B9DFB215A0AC300AD049E /* main.m */; };
+		944D17E0215B56880000F1FC /* NewsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17DF215B56880000F1FC /* NewsListTableViewController.m */; };
+		944D17E3215B57110000F1FC /* NewsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17E2215B57110000F1FC /* NewsListTableViewCell.m */; };
+		944D17E6215B57960000F1FC /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17E5215B57960000F1FC /* NewsViewController.m */; };
+		944D17F4215B61510000F1FC /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17F3215B61510000F1FC /* ApiManager.m */; };
+		944D17F7215B61680000F1FC /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17F6215B61680000F1FC /* DataProvider.m */; };
+		944D17FC215BA2470000F1FC /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D17FB215BA2470000F1FC /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E3552E0FFAB581FF02F70B4 /* Pods-GBNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBNews/Pods-GBNews.release.xcconfig"; sourceTree = "<group>"; };
+		64DEB0675199A6D0EA35D912 /* libPods-GBNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GBNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942B9DE9215A0AC200AD049E /* GBNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942B9DEC215A0AC200AD049E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		942B9DED215A0AC200AD049E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		942B9DEF215A0AC200AD049E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		942B9DF0215A0AC200AD049E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		942B9DF3215A0AC200AD049E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		942B9DF5215A0AC300AD049E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942B9DF8215A0AC300AD049E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		942B9DFA215A0AC300AD049E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		942B9DFB215A0AC300AD049E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		944D17DE215B56880000F1FC /* NewsListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsListTableViewController.h; sourceTree = "<group>"; };
+		944D17DF215B56880000F1FC /* NewsListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsListTableViewController.m; sourceTree = "<group>"; };
+		944D17E1215B57110000F1FC /* NewsListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsListTableViewCell.h; sourceTree = "<group>"; };
+		944D17E2215B57110000F1FC /* NewsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsListTableViewCell.m; sourceTree = "<group>"; };
+		944D17E4215B57960000F1FC /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		944D17E5215B57960000F1FC /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		944D17F2215B61510000F1FC /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		944D17F3215B61510000F1FC /* ApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		944D17F5215B61680000F1FC /* DataProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		944D17F6215B61680000F1FC /* DataProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
+		944D17FA215BA2470000F1FC /* News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		944D17FB215BA2470000F1FC /* News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		E9E12A5BA01157A032A97FB2 /* Pods-GBNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBNews/Pods-GBNews.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFF9AF8DEF4260CF2E94BDE /* libPods-GBNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,8 @@
 			children = (
 				942B9DEB215A0AC200AD049E /* GBNews */,
 				942B9DEA215A0AC200AD049E /* Products */,
+				CD8DEA77288B46236390A9F3 /* Pods */,
+				F627668A80DE0F0E6EB9C6DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +78,107 @@
 		942B9DEB215A0AC200AD049E /* GBNews */ = {
 			isa = PBXGroup;
 			children = (
-				942B9DEC215A0AC200AD049E /* AppDelegate.h */,
-				942B9DED215A0AC200AD049E /* AppDelegate.m */,
-				942B9DEF215A0AC200AD049E /* ViewController.h */,
-				942B9DF0215A0AC200AD049E /* ViewController.m */,
-				942B9DF2215A0AC200AD049E /* Main.storyboard */,
-				942B9DF5215A0AC300AD049E /* Assets.xcassets */,
-				942B9DF7215A0AC300AD049E /* LaunchScreen.storyboard */,
-				942B9DFA215A0AC300AD049E /* Info.plist */,
-				942B9DFB215A0AC300AD049E /* main.m */,
+				944D17D4215B52CB0000F1FC /* App */,
+				944D17F9215BA1650000F1FC /* Entity */,
+				944D17D5215B52DD0000F1FC /* Environment */,
+				944D17D6215B53610000F1FC /* Flows */,
+				944D17D9215B54E90000F1FC /* Resources */,
 			);
 			path = GBNews;
+			sourceTree = "<group>";
+		};
+		944D17D4215B52CB0000F1FC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				944D17DA215B55260000F1FC /* AppDelegate */,
+				944D17D8215B54C50000F1FC /* Network */,
+				944D17D7215B53710000F1FC /* BusinessLogic */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		944D17D5215B52DD0000F1FC /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				942B9DFB215A0AC300AD049E /* main.m */,
+				942B9DFA215A0AC300AD049E /* Info.plist */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		944D17D6215B53610000F1FC /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				944D17DE215B56880000F1FC /* NewsListTableViewController.h */,
+				944D17DF215B56880000F1FC /* NewsListTableViewController.m */,
+				944D17E1215B57110000F1FC /* NewsListTableViewCell.h */,
+				944D17E2215B57110000F1FC /* NewsListTableViewCell.m */,
+				944D17E4215B57960000F1FC /* NewsViewController.h */,
+				944D17E5215B57960000F1FC /* NewsViewController.m */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		944D17D7215B53710000F1FC /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		944D17D8215B54C50000F1FC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				944D17F2215B61510000F1FC /* ApiManager.h */,
+				944D17F3215B61510000F1FC /* ApiManager.m */,
+				944D17F5215B61680000F1FC /* DataProvider.h */,
+				944D17F6215B61680000F1FC /* DataProvider.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		944D17D9215B54E90000F1FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				942B9DF5215A0AC300AD049E /* Assets.xcassets */,
+				942B9DF7215A0AC300AD049E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		944D17DA215B55260000F1FC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				942B9DEC215A0AC200AD049E /* AppDelegate.h */,
+				942B9DED215A0AC200AD049E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		944D17F9215BA1650000F1FC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				944D17FA215BA2470000F1FC /* News.h */,
+				944D17FB215BA2470000F1FC /* News.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CD8DEA77288B46236390A9F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E12A5BA01157A032A97FB2 /* Pods-GBNews.debug.xcconfig */,
+				4E3552E0FFAB581FF02F70B4 /* Pods-GBNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F627668A80DE0F0E6EB9C6DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64DEB0675199A6D0EA35D912 /* libPods-GBNews.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 942B9DFF215A0AC300AD049E /* Build configuration list for PBXNativeTarget "GBNews" */;
 			buildPhases = (
+				0E22C1709E5AD146C86B5861 /* [CP] Check Pods Manifest.lock */,
 				942B9DE5215A0AC200AD049E /* Sources */,
 				942B9DE6215A0AC200AD049E /* Frameworks */,
 				942B9DE7215A0AC200AD049E /* Resources */,
@@ -130,19 +241,44 @@
 			files = (
 				942B9DF9215A0AC300AD049E /* LaunchScreen.storyboard in Resources */,
 				942B9DF6215A0AC300AD049E /* Assets.xcassets in Resources */,
-				942B9DF4215A0AC200AD049E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E22C1709E5AD146C86B5861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GBNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		942B9DE5215A0AC200AD049E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942B9DF1215A0AC200AD049E /* ViewController.m in Sources */,
 				942B9DFC215A0AC300AD049E /* main.m in Sources */,
+				944D17E0215B56880000F1FC /* NewsListTableViewController.m in Sources */,
+				944D17F4215B61510000F1FC /* ApiManager.m in Sources */,
+				944D17F7215B61680000F1FC /* DataProvider.m in Sources */,
+				944D17E6215B57960000F1FC /* NewsViewController.m in Sources */,
+				944D17E3215B57110000F1FC /* NewsListTableViewCell.m in Sources */,
+				944D17FC215BA2470000F1FC /* News.m in Sources */,
 				942B9DEE215A0AC200AD049E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +286,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		942B9DF2215A0AC200AD049E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				942B9DF3215A0AC200AD049E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		942B9DF7215A0AC300AD049E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,11 +411,12 @@
 		};
 		942B9E00215A0AC300AD049E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E12A5BA01157A032A97FB2 /* Pods-GBNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X37P9Q6XJN;
-				INFOPLIST_FILE = GBNews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GBNews/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +429,12 @@
 		};
 		942B9E01215A0AC300AD049E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3552E0FFAB581FF02F70B4 /* Pods-GBNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X37P9Q6XJN;
-				INFOPLIST_FILE = GBNews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GBNews/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
